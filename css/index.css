@@ -23,10 +23,9 @@ main{
 }
 aside{
     width: 15%;
-    border: 1px solid silver;
-    margin-left: 1%;
-    line-height: 1.7;
-    padding: 5px 0px;
+    line-height: 1.5;
+    padding: 5px 5px;
+    border-bottom: 1px solid silver;
 }
 footer{
     margin-bottom: 0;
@@ -36,6 +35,8 @@ footer{
 #container{
     display: flex;
 }
+aside td{
+}
 aside a, nav a{
     text-decoration: none;
     color: black;
@@ -44,6 +45,11 @@ aside a, nav a{
 }
 aside a:hover{
     color: red;
+    font-weight: 600;
+    border:1px solid silver ;
+}
+aside td{
+    display: block;
 }
 nav{
     margin-bottom: 25px;
