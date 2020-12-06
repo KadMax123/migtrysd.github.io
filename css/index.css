@@ -35,6 +35,7 @@ footer{
     margin-bottom: 0;
     border-bottom: 0;
     border-top: 4px solid silver;
+    background:#333;
 }
 #container{
     display: flex;
@@ -59,12 +60,11 @@ nav{
     margin-bottom: 25px;
     margin-top: 25px;
 }
+
 nav ul{
-    margin-left: 200px;
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
+    
 }
+
 nav a{
     border: 1px solid silver;
     border-radius: 10px;
@@ -87,7 +87,6 @@ nav a:hover{
 }
 #logo a{
     text-decoration: none;
-    color:#6600ff;
     margin-left: 25px;
 }
 
@@ -137,7 +136,26 @@ main a {
 main figcaption{
     font-size: 50px;
 }
-#k{
-    width: 10px;
+#kat{
+    vertical-align: middle;
+}
+#tul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    vertical-align: middle;
+}
+#gr{
+    border:1px solid silver;
+    padding: 0px 15px 0px 15px;
+    background: black;
+    color: #fff;
+}
+.kor{
+    margin-right: 20px;
+    width: 80px;
+    background-image:url(../img/kor.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
