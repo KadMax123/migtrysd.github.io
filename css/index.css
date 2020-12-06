@@ -83,21 +83,23 @@ nav a:hover{
     display: flex;
     margin-left: 1%;
     justify-content: space-between;
+
 }
 #logo a{
     text-decoration: none;
     color:#6600ff;
+    margin-left: 25px;
 }
 
-input {
+header input {
     outline:none;
-
 }
 #po{
     border-radius: 14px;
     height: 38px;
     font-size: 24px;
     vertical-align: middle;
+    opacity: 0.5;
 }
 #nv{
     border: 1px solid silver;
@@ -106,6 +108,8 @@ input {
     padding: 0px 5px;
     height: 25px;
     vertical-align: middle;
+    opacity: 0.5;
+    margin-right: 125px;
 }
 #nv:hover{
     font-size: 16px;
